@@ -20,7 +20,7 @@
  *          defaults for copy constructor, assignment operator and
  *          destructor.
  */
-class IntList {
+class practiceClass {
 
 }
 
