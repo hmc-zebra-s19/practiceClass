@@ -6,7 +6,7 @@
 #     make
 #
 
-all: intlist-test
+all: practiceClass-test
 
 practiceClass-test: practiceClass-test.o practiceClass.o testing-logger.o
 	clang++ -o practiceClass-test practiceClass-test.o practiceClass.o testing-logger.o
