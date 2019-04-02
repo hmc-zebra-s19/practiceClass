@@ -6,6 +6,9 @@
 
 #include <utility>
 
+#include "practiceClass.hpp"
+#include "testing-logger.hpp"
+
 practiceClass::practiceClass() : numberPtr_(new numberHolder(0)){
 }
 
@@ -31,6 +34,3 @@ int practiceClass::addOne(){
 int practiceClass::getNumber() const{
   return numberPtr_-.number_;
 }
-
-#include "practiceClass.hpp"
-#include "testing-logger.hpp"
