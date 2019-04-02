@@ -21,7 +21,26 @@
  *          destructor.
  */
 class practiceClass {
+public:
+  practiceClass();
+  practiceClass(const practiceClass& orig);
+  practiceClass& operator=(const practiceClass& rhs);
+  ~practiceClass();
 
+  int addOne();
+  int getNumber() const;
+
+private:
+  struct numberHolder{
+    numberHolder(int number);
+    numberHolder() = delete;
+    numberHolder(const numberHolder&) = delete;
+    ~numberHolder() = default;
+
+    int number_;
+  }
+
+  numberHolder *numberPtr_;
 };
 
 #endif  // INTLIST_HPP_INCLUDED
