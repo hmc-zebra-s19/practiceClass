@@ -38,7 +38,7 @@ private:
     ~numberHolder() = default;
 
     int number_;
-  }
+  };
 
   numberHolder *numberPtr_;
 };
