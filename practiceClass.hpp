@@ -22,6 +22,6 @@
  */
 class practiceClass {
 
-}
+};
 
 #endif  // INTLIST_HPP_INCLUDED
